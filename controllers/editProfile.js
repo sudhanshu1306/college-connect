@@ -30,6 +30,8 @@ export const sendEditProfile=(req,res)=>{
       foundUser.profileImage=req.file.path;}
       foundUser.gender=req.body.gender;
       foundUser.bio=req.body.bio;
+      foundUser.department=req.body.department;
+      foundUser.year=req.body.year;
       foundUser.save();
     }
   });

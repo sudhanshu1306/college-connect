@@ -8,7 +8,8 @@ export const getNotification=(req,res)=>{
     res.json({
       success:true,
       message:"Notification section",
-      notification:user.notification
+      notification:user.notification,
+      pic:user.profileImage
     });
   });
 
@@ -18,6 +19,7 @@ export const getActivity=(req,res)=>{
   res.json({
     success:true,
     message:"Activity section",
-    activity:user.activity
+    activity:user.activity,
+    pic:user.profileImage
   });
 }

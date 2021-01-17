@@ -15,13 +15,13 @@ export const postLike=(req,res)=>{
       User.findOne({email:req.session.passport.user},(err,foundUser)=>{
         User.findById(post.user,(err,fo)=>{
 
-          if(req.body.isLiked && post.like.indexOf(foundUser._id)==-1){
+          if(!req.body.isLiked && post.like.indexOf(foundUser._id)==-1){
             foundUser.activity=["You liked a post by "+fo.username,...foundUser.activity];
             fo.notification=[foundUser.username+" liked your post",...fo.notification];
-            foundUser.save();
-            fo.save();
+            foundUser.update();
+            fo.update();
           post.like=[foundUser._id,...post.like];
-          post.save();
+          post.update();
           res.json({
             success:true,
             message:"Liked this pic"
@@ -29,7 +29,7 @@ export const postLike=(req,res)=>{
           else{
             var pos=post.like.indexOf(foundUser._id);
             post.like.splice(pos,1);
-            post.save();
+            post.update();
             res.json({
               success:true,
               message:"disliked this pic"

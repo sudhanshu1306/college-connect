@@ -41,6 +41,8 @@ import profileRoute from "./routes/profile.js";
 import messageRoute from "./routes/message.js";
 import notificationRoute from "./routes/notification.js";
 import newsRoute from "./routes/news.js";
+import collegeRoute from "./routes/college.js";
+import broadcastRoute from "./routes/broadcast.js";
 
 app.set("view engine","ejs");
 app.use(express.static("public"));
@@ -78,6 +80,8 @@ app.use("/api/profile",profileRoute);
 app.use("/api/message",messageRoute);
 app.use("/api/noti",notificationRoute);
 app.use("/api/news",newsRoute);
+app.use("/api/college",collegeRoute);
+app.use("/api/broadcast",broadcastRoute);
 
 
 app.use((req,res)=>{

@@ -20,7 +20,9 @@ const userSchema=new mongoose.Schema({
   pending:[{type:Schema.Types.ObjectId,ref:'User'}],
   notification:[{type:String}],
   activity:[{type:String}],
-  news:[{type:Schema.Types.ObjectId,ref:'Post'}]
+  news:[{type:Schema.Types.ObjectId,ref:'Post'}],
+  department:String,
+  year:String
 });
 userSchema.plugin(passportLocalMongoose, {
   usernameField: 'email'
