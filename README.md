@@ -6,7 +6,7 @@ MERN Stack
 
 ## Links
 
-### Link to Video demonstration & Presentation- `https://drive.google.com/drive/folders/180c5HOo7qLQan53xZpHxeCqQi9UPuYX2?usp=sharing`
+ Link to Video demonstration & Presentation- `https://drive.google.com/drive/folders/180c5HOo7qLQan53xZpHxeCqQi9UPuYX2?usp=sharing`
 
 
 ## Installation
