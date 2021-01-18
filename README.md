@@ -1,4 +1,4 @@
-# college-connect
+# College-connect
 It is a social networking application built exclusively for colleges with the aim of bridging the gap between college students and administration.
 
 ## Tech Stack
