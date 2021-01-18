@@ -4,8 +4,9 @@ It is a social networking application built exclusively for colleges with the ai
 ## Tech Stack
 MERN Stack
 
-##Links
-###Link to Video demonstration & Presentation- `https://drive.google.com/drive/folders/180c5HOo7qLQan53xZpHxeCqQi9UPuYX2?usp=sharing`
+## Links
+
+### Link to Video demonstration & Presentation- `https://drive.google.com/drive/folders/180c5HOo7qLQan53xZpHxeCqQi9UPuYX2?usp=sharing`
 
 
 ## Installation
