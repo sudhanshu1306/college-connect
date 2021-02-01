@@ -6,8 +6,7 @@ It is a social networking application built exclusively for colleges with the ai
 => Real time chat feature with college mates/professors.\
 => Authentication of CRs & administration for posting news.\
 => Broadcasting any important message to students of any specific year/college/branch or everyone.\
-=> Students can like and comment on posts and can follow their college mates.\
-
+=> Students can like and comment on posts and can follow their college mates.
 
 ## Tech Stack
 MERN Stack
