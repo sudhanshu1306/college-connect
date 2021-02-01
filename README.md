@@ -2,11 +2,11 @@
 It is a social networking application built exclusively for colleges with the aim of bridging the gap between college students and administration.
 
 ## Features
-=> Students can seek/share information through posts.
-=> Real time chat feature with college mates/professors.
-=> Authentication of CRs & administration for posting news.
-=> Broadcasting any important message to students of any specific year/college/branch or everyone.
-=> Students can like and comment on posts and can follow their college mates.
+=> Students can seek/share information through posts.\
+=> Real time chat feature with college mates/professors.\
+=> Authentication of CRs & administration for posting news.\
+=> Broadcasting any important message to students of any specific year/college/branch or everyone.\
+=> Students can like and comment on posts and can follow their college mates.\
 
 
 ## Tech Stack
@@ -37,6 +37,6 @@ $ npm run dev
 
 Server is running at `http://localhost:5000/`
 ## Team Members -
--Sudhanshu Tripathi
--Raj Anand
--Nidhi Ranjan
+- Sudhanshu Tripathi
+- Raj Anand
+- Nidhi Ranjan
